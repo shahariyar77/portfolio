@@ -1,0 +1,138 @@
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width:1300px;
+    margin: auto;
+    padding: 0 80px;
+}
+@media (max-width: 991px){
+    .container {
+        padding: 0 50px;
+    }
+}
+@media (max-width: 947px){
+    .container {
+        max-width: 930px;
+    }
+}
+@media (max-width: 690px){
+    .container {
+        padding: 0 23px;
+    }
+}
+
+
+
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width:1300px;
+        padding: 0 80px;
+    }
+    .left-about img {
+        width: 350px;
+        height: 350px;
+    } 
+    .right-about p {
+        font-weight: normal;
+        line-height: 25px;
+    }
+    .row.project-list [class*="col-"] {
+         margin: 0px;
+         padding-left:0px;
+    }
+    
+}
+/* Tablet & mobile Layout: 768px. */
+@media only screen and (max-width: 991px) { 
+    .offcanvas-manu {
+        display: block;
+        padding-top: 60px;
+    }
+    .header-bar {
+        display:block;
+    }
+    .main-manu {
+        display: none;
+    }
+    .text-2 {
+        font-size: 65px;
+    }
+    .text-3 {
+        font-size: 35px;
+    }
+    .hero-btn a {
+        font-size: 22px;
+        padding: 8px 30px;
+    }
+    .about-content {
+        flex-direction: column;
+    }
+    .left-about{
+        margin-bottom: 60px;
+    }
+    .left-about img {
+        width: 100%;
+    }
+    .right-about {
+        width: 100%;
+    }
+    .single-services-item {
+        margin-bottom: 20px;
+    }
+    .row.project-list [class*="col-"] {
+         margin:0px;
+        padding-left:0px;
+    }
+
+
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        padding: 0 50px;
+    }
+  
+    
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px){
+    .text-2 {
+        font-size: 50px;
+        line-height: initial;
+    }
+    .text-3 {
+        font-size: 25px;
+    }
+    .hero-btn a {
+        font-size: 20px;
+    }
+    .left-about {
+        width: 100%;
+    }
+    .left {
+        margin-bottom: 50px;
+    }
+    section.services .tittle::after, section.some-project .tittle::after {
+        font-size: 16px;
+    }
+    .skill-content {
+        flex-direction: column;
+    }
+    .content {
+        width: 100%;
+    }
+    .single-projectj-item {
+        margin-left: 1rem;
+    }
+    .content {
+        margin-top: 50px;
+    }
+    .right-text br {
+        display: block;
+    }
+}
+/* mediam device */
+@media only screen and (min-width: 576px) and (max-width: 767px){
+    
+    
+}
